@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cmltdstudent.takehomeassignment08_ningelb.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Title"
+        android:textAllCaps="true"
+        android:onClick="set"/>
+
+    <EditText
+        android:id="@+id/foodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Food Name" />
+
+    <EditText
+        android:id="@+id/calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Calories"
+        />
+
+    <CheckBox
+        android:id="@+id/healthy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Is it healthy?"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:onClick="add"/>
+
+</LinearLayout>
